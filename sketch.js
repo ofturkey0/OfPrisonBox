@@ -2,7 +2,7 @@ var kenar = 25;
 var box = [];
 var block;
 var length = 10;
-var kamnspa = 0;
+var score = 0;
 function setup() {
   createCanvas(500, 500);
   for (var i=0;i<length;i++) {
@@ -22,7 +22,7 @@ function draw() {
   block.show();
   gameOver();
   fill(0);
-  text("Score:" + kamnspa,30,50,)
+  text("Score:" + score,30,50,)
 }
 function keyPressed() {
 	if (keyCode === LEFT_ARROW) {
@@ -57,7 +57,7 @@ function Box() {
     if (this.y > height) {
       this.x = floor(random(0,kenar)) * kenar;
   		this.y = floor(random(-kenar,0)) * kenar;
-      kamnspa++;
+      score++;
     }
   }
   this.show = function(){
