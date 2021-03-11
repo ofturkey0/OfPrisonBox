@@ -2,7 +2,7 @@ var kenar = 25;
 var box = [];
 var block;
 var length = 10;
-var score = 0;
+var kamnspa = 0;
 function setup() {
   createCanvas(500, 500);
   for (var i=0;i<length;i++) {
@@ -22,7 +22,7 @@ function draw() {
   block.show();
   gameOver();
   fill(0);
-  text("Score:" + score,30,50,)
+  text("Score:" + kamnspa,30,50,)
 }
 function keyPressed() {
 	if (keyCode === LEFT_ARROW) {
@@ -40,7 +40,7 @@ function gameOver() {
       	if (box[i].x == block.x+j*kenar || box[i].x+kenar == block.x+j*kenar) {
         	noLoop();
           fill(51,85,255);
-          text("GAME OVER!",width/2-60,100);
+          text("Game Over!",width/2-60,100);
           break;
         }
       }
@@ -57,7 +57,7 @@ function Box() {
     if (this.y > height) {
       this.x = floor(random(0,kenar)) * kenar;
   		this.y = floor(random(-kenar,0)) * kenar;
-      score++;
+      kamnspa++;
     }
   }
   this.show = function(){
@@ -74,7 +74,7 @@ function Block() {
   	this.x += xSpeed;
   }
   this.show = function() {
-    fill(0,255,0);
+    fill(25, 118, 210);
     rect(this.x,this.y,this.blockLength,kenar);
   }
 }
