@@ -16,10 +16,12 @@ Terminal'i açıp bu komutu yazarsanız oyunu indire bilirsibiz
  Yada aşağıdaki link'e basarak indrebilirsiniz.
 
 
-[📥Direk İndir](https://github.com/ofturkey0/ofprisonbox/archive/refs/heads/main.zip)
+[📥Direk İndir](https://github.com/ofturkey0/ofprisonbox/archive/refs/heads/main.zip) <br>
+[🌐Canlı Bağlantı](https://ofturkey0.github.io/ofprisonbox/)
 
 ## Windows
 
 Aşağıdaki link'e basarak indrebilirsiniz.
 
-[📥Direk İndir](https://github.com/ofturkey0/ofprisonbox/archive/refs/heads/main.zip)
+[📥Direk İndir](https://github.com/ofturkey0/ofprisonbox/archive/refs/heads/main.zip) <br>
+[🌐Canlı Bağlantı](https://ofturkey0.github.io/ofprisonbox/)
